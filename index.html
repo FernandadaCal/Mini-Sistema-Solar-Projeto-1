@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Sistema Solar</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0a0d1f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    canvas {
+      border: 1px solid #333;
+      max-width: 95vw;
+      max-height: 95vh;
+    }
+
+    #erro {
+      color: white;
+      max-width: 700px;
+      padding: 20px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas" width="900" height="650"></canvas>
+  <div id="erro"></div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
